@@ -1,17 +1,16 @@
 package task;
 
 import org.hamcrest.Matchers;
-import org.junit.Test;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import static junit.framework.TestCase.assertEquals;
-import static junit.framework.TestCase.assertTrue;
 import static org.hamcrest.MatcherAssert.assertThat;
-import static org.junit.Assert.assertThrows;
+import static org.junit.jupiter.api.Assertions.*;
 
+@DisplayName("Тесты объекта Counter")
 public class CounterTest {
     @Test
     @DisplayName("Когда массив равен null, тогда генерируется исключение")
